@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../logo/Logo";
-import { UserAuth } from "../../context/authStore";
+import { UserAuth } from "../../context/AuthStore.jsx";
 
 function Login() {
   const [email, setEmail] = useState("");
