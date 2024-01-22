@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
-import { UserAuth } from "../../context/authStore";
+import { UserAuth } from "../../context/AuthStore.jsx";
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { db } from "../../firebase";
 import { RiHeartFill, RiHeartLine } from "@remixicon/react";
