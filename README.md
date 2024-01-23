@@ -1,8 +1,37 @@
-# React + Vite
+# CAMP YELLOW TASK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Goal: 
 
-Currently, two official plugins are available:
+Create a new landing page for the Netflix website with a focus on simplicity and user engagement. The landing page will be based on a dark theme and feature essential sections, each carefully designed for an optimal user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Deployments: 
+- **Vercel:** [Link](https://campyellow-netflix-task.vercel.app/)
+
+- **Github:** [Link](https://github.com/Avi2492/camp-yellow-fe-task)
+
+### Tech Stack:
+
+- **Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router (react-router-dom)
+- **State Management:** Context API
+- **Data Storage:** Firebase
+- **Movie API:** TMDB API
+
+## How to start
+
+- Clone this repo in your local machine.
+
+## Commands to start
+
+- Install node_moudles folder with the help of below command.
+
+```bash
+   npm install
+```
+- After that Run the below command to start the project.
+
+```bash
+   npm run build
+```
