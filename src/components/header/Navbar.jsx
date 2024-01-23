@@ -3,6 +3,8 @@ import Logo from "../logo/Logo";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../../context/AuthStore.jsx";
 import { Menu, X } from "lucide-react";
+import UserIcon from "../logo/UserIcon.jsx";
+import { RiSearchLine } from "@remixicon/react";
 
 const menuItems = [
   {
@@ -58,9 +60,16 @@ function Navbar() {
               ))}
             </ul>
           </div>
-          <div className="hidden space-x-2 lg:block">
+          <div className="hidden space-x-2 lg:flex items-center">
             <Link to={"/account"}>
-              <button className="text-white pr-4">Welcome</button>
+              <button className="text-white pr-4">
+                <RiSearchLine />
+              </button>
+            </Link>
+            <Link to={"/account"}>
+              <button className="text-white pr-4">
+                <UserIcon />
+              </button>
             </Link>
             <button
               onClick={handleLogout}
@@ -108,8 +117,8 @@ function Navbar() {
                   </div>
                   <div className="mt-2 space-y-2">
                     <Link to={"/account"}>
-                      <button className="w-full rounded-md border border-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
-                        Welcome
+                      <button className="w-full rounded-md  px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                        <UserIcon />
                       </button>
                     </Link>
 
