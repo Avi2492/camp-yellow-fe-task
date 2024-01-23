@@ -1,15 +1,15 @@
 # CAMP YELLOW TASK
 
-## Goal: 
+## ⛳ Goal: 
 
 Create a new landing page for the Netflix website with a focus on simplicity and user engagement. The landing page will be based on a dark theme and feature essential sections, each carefully designed for an optimal user experience.
 
-### Deployments: 
+### 👨‍💻 Deployments: 
 - **Vercel:** [Link](https://campyellow-netflix-task.vercel.app/)
 
 - **Github:** [Link](https://github.com/Avi2492/camp-yellow-fe-task)
 
-### Tech Stack:
+### 🚀 Tech Stack:
 
 - **Framework:** React.js
 - **Build Tool:** Vite
@@ -19,11 +19,11 @@ Create a new landing page for the Netflix website with a focus on simplicity and
 - **Data Storage:** Firebase
 - **Movie API:** TMDB API
 
-## How to start
+## 🎯 How to start
 
 - Clone this repo in your local machine.
 
-## Commands to start
+## 🏎️ Commands to start
 
 - Install node_moudles folder with the help of below command.
 
