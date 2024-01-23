@@ -33,5 +33,5 @@ Create a new landing page for the Netflix website with a focus on simplicity and
 - After that Run the below command to start the project.
 
 ```bash
-   npm run build
+   npm run dev
 ```
