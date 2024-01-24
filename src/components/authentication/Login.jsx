@@ -32,7 +32,7 @@ function Login() {
       />
       <div className="bg-black/60 fixed top-0 left-0 w-full h-screen"></div>
       <div className="fixed w-full px-4 py-24 z-50">
-        <div className="max-w-[450px] h-[450px] mx-auto bg-black/75 text-white">
+        <div className="max-w-[450px] h-[480px] mx-auto bg-black/75 text-white">
           <div className="max-w-[320px] mx-auto py-10">
             <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
               <div className="mb-2 flex justify-center">
